@@ -1,0 +1,66 @@
+/* Estil de la capa principal */
+.pokemon-card {
+    background-color: #818181; /* Fons gris clar */
+    padding: 20px; /* Marge interior */
+    border-radius: 15px; /* Arrodonir les cantonades */
+    width: 350px; /* Amplada de la tarjeta */
+    text-align: center; /* Centrat de text dins de la tarjeta */
+    display: flex; /* Utilitza flexbox per centrar */
+    flex-direction: column; /* Col·loca els elements de dalt a baix */
+    justify-content: center; /* Centrat vertical */
+    align-items: center; /* Centrat horitzontal */
+    margin: auto; /* Centrat horitzonalment a la pàgina */
+    margin-top: 50px; /* Separar la tarjeta de la part superior */
+}
+
+/* Estil de la imatge */
+.pokemon-image {
+    max-width: 100%; /* Amplada màxima de la imatge per mantenir-la responsive */
+    border-radius: 15px; /* Arrodonir les cantonades de la imatge */
+    margin-bottom: 20px; /* Marge inferior per separar-la del text */
+}
+
+/* Estil de la capa d'informació del Pokémon */
+.pokemon-info {
+    background-color: #88ff88; /* Fons verd clar */
+    border-radius: 15px; /* Arrodonir les cantonades */
+    padding: 15px; /* Padding per al marge interior */
+    margin-bottom: 20px; /* Marge inferior per separar del text */
+}
+
+/* Estil del nom del Pokémon */
+.pokemon-name {
+    font-family: 'Arial', sans-serif; /* Tipus de lletra distintiu */
+    font-size: 24px; /* Mida de lletra gran */
+    font-weight: bold; /* Fer-lo més destacat */
+    color: #2d6a4f; /* Color que contrasta amb el fons verd */
+    margin-bottom: 10px; /* Marge inferior per separar de la resta de text */
+}
+
+/* Estil dels tipus de Pokémon */
+.pokemon-type {
+    font-family: 'Verdana', sans-serif; /* Tipus de lletra distintiu */
+    font-size: 18px; /* Mida lleugerament menor que el nom */
+    padding: 5px 10px; /* Padding per a que es vegi més estilitzat */
+    border-radius: 8px; /* Arrodonir els extrems */
+    margin-bottom: 10px; /* Marge inferior per separar-se de la descripció */
+}
+
+/* Tipus específic per al tipus Planta */
+.pokemon-type.plant {
+    color: #47cfbf; /* Verd per al tipus Planta */
+}
+
+/* Tipus específic per al tipus Verí */
+.pokemon-type.poison {
+    color: #bb5ee0; /* Morat per al tipus Verí */
+}
+
+/* Estil de la descripció del Pokémon */
+.pokemon-description {
+    font-family: 'Arial', sans-serif; /* Tipus de lletra més senzill per a la descripció */
+    font-size: 14px; /* Mida més petita que el nom */
+    color: #b0b0b0; /* Color gris clar per diferenciar la descripció */
+    line-height: 1.5; /* Espaiat entre línies */
+}
+
